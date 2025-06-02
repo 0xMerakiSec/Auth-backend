@@ -23,7 +23,7 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
-
+A backend JWT Authentication using 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Project setup
@@ -32,8 +32,19 @@
 $ yarn install
 ```
 
-## Compile and run the project
-
+##  Endpoints
+To signup user
+```
+/auth/signup
+```
+To signin user
+```
+/auth/signin
+```
+To get the user profile
+```
+/users/me
+```
 ```bash
 # development
 $ yarn run start
@@ -43,19 +54,6 @@ $ yarn run start:dev
 
 # production mode
 $ yarn run start:prod
-```
-
-## Run tests
-
-```bash
-# unit tests
-$ yarn run test
-
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
 ```
 
 ## Deployment
